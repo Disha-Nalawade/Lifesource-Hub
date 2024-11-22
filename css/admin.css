@@ -1,0 +1,7 @@
+#form_container {
+  background-color: red;
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
