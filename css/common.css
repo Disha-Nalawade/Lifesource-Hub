@@ -1,0 +1,20 @@
+body {
+  background-image: url("../images/treeblood.webp");
+  margin: 0px;
+}
+#nav_caontainer {
+  background-color: red;
+  height: 30px;
+  margin: 0px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.text_color {
+  color: white;
+  font-size: 20px;
+  font-weight: boldert;
+  text-decoration: none;
+}
