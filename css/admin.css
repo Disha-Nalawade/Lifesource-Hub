@@ -3,20 +3,31 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #form_container {
-  width: 300px;
+  width: 320px;
   height: 330px;
   border: 1px solid white;
   border-radius: 20px;
   display: block;
   margin: 100px auto;
 }
+#form_container:hover {
+  box-shadow: 1px 1px 10px 1x black;
+}
 .inputbox {
   width: 230px;
-  padding: 20px;
+  padding: 17px;
   margin: 20px;
   border: none;
   border-radius: 20px;
+}
+.inputbox:hover {
+  background-color: #ffe6e6;
+  border: none;
+  box-shadow: 1px 2px 4px 1px black;
+  transform: scale(1.1);
+  font-size: 13px;
 }
 .btn_container {
   display: flex;
