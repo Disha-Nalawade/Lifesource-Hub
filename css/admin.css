@@ -31,7 +31,7 @@ body {
 }
 .btn_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .btn {
   width: 80px;
