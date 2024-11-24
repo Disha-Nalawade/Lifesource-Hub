@@ -1,0 +1,40 @@
+body {
+  background-image: url("../images/treeblood.webp");
+  margin: 0px;
+}
+#nav_caontainer {
+  background-color: red;
+  height: 30px;
+  margin: 0px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.text_color {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 4px 4px;
+}
+.text_color:hover {
+  background-color: #ffcccc;
+  border-radius: 20px;
+
+  padding: 4px 7px;
+  transform: scale(1.1);
+  color: red;
+  font-weight: bolder;
+  box-shadow: 3px 3px 13px 1px black;
+}
+.home:hover {
+  background-color: #ffcccc;
+  border-radius: 20px;
+
+  padding: 4px 10px;
+  transform: scale(1.1);
+  color: red;
+  font-weight: bolder;
+  box-shadow: 3px 3px 13px 1px black;
+}

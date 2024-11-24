@@ -1,0 +1,66 @@
+body {
+  background-image: url("../images/redboll1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form_container {
+  width: 320px;
+  height: 330px;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: block;
+  margin: 100px auto;
+}
+#form_container:hover {
+  box-shadow: 1px 1px 10px 1x black;
+}
+.inputbox {
+  width: 230px;
+  padding: 17px;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+}
+.inputbox:hover {
+  background-color: #ffe6e6;
+  border: none;
+  box-shadow: 1px 2px 4px 1px black;
+  transform: scale(1.1);
+  font-size: 13px;
+}
+.btn_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  width: 80px;
+  padding: 14px;
+  margin: 10px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 30px;
+}
+.btn1 {
+  background-color: #ffffff;
+}
+.btn1:hover {
+  border: 1px solid black;
+  box-shadow: 1px 2px 7px 1px black;
+  transform: scale(1.1);
+}
+
+.btn2:hover {
+  border: 1px solid black;
+
+  box-shadow: 0px 2px 7px 1px black;
+  transform: scale(1.1);
+}
+.inputcontainer {
+  margin-top: 30px;
+}
+.inputbox {
+  display: block;
+  margin: 30px auto;
+}
